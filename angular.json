@@ -29,7 +29,26 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/materialize-css/dist/js/materialize.min.js",
+              "src/assets/js/util.js",
+              "src/assets/js/skel.min.js",
+              "src/assets/js/main.js",
+              "src/assets/js/jquery.scrolly.min.js",
+              "src/assets/js/jquery.scrollex.min.js",
+              "src/assets/js/jquery.poptrox.min.js",
+              "src/assets/js/jquery.min.js"
+
+
+
+
+
+              
+
+
+
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {
