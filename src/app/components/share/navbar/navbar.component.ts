@@ -11,9 +11,12 @@ export class NavbarComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    $(document).ready(function () {
-      $('.sidenav').sidenav();
-    });
+ 
+
+//SCROLLSPY
+$(document).ready(function(){
+    $('.scrollspy').scrollSpy();
+  });
   }
 
 }
